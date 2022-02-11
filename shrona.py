@@ -6,7 +6,7 @@ import os
 
 # Create and configure logger
 import logging
-logging.basicConfig(filename="./shrona.log", format='%(asctime)s %(message)s', filemode='w')
+logging.basicConfig(filename="./shrona.log", format='%(asctime)s %(message)s', filemode='a')
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 

@@ -4,7 +4,7 @@ import json
 
 # Create and configure logger
 import logging
-logging.basicConfig(filename="./trikonate.log", format='%(asctime)s %(message)s', filemode='w')
+logging.basicConfig(filename="./trikonate.log", format='%(asctime)s %(message)s', filemode='a')
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
@@ -19,8 +19,8 @@ UDP_IP = os.environ.get(
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
 sock.bind((UDP_IP, UDP_PORT))
 msg = "Listening on %s:%s" % (UDP_IP, UDP_PORT)
-
 logger.info("Listening on %s:%s" % (UDP_IP, UDP_PORT))
+print(msg)
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
     logger.info(data)
