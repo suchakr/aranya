@@ -1,0 +1,162 @@
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Spatial Pyramid of Local Binary Patterns77 <= 1
+|   Spatial Pyramid of Local Binary Patterns160 <= 6: NOFIRE (30.0/1.0)
+|   Spatial Pyramid of Local Binary Patterns160 > 6
+|   |   Spatial Pyramid of Local Binary Patterns578 <= 3
+|   |   |   Spatial Pyramid of Local Binary Patterns63 <= 7
+|   |   |   |   Spatial Pyramid of Local Binary Patterns229 <= 1: NOFIRE (29.0/1.0)
+|   |   |   |   Spatial Pyramid of Local Binary Patterns229 > 1: FIRE (2.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns63 > 7: FIRE (7.0)
+|   |   Spatial Pyramid of Local Binary Patterns578 > 3
+|   |   |   Spatial Pyramid of Local Binary Patterns29 <= 0
+|   |   |   |   Spatial Pyramid of Local Binary Patterns148 <= 14
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns400 <= 14
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns689 <= 0
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns252 <= 3
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns105 <= 0
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns278 <= 0
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns323 <= 5: FIRE (16.0)
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns323 > 5: NOFIRE (2.0)
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns278 > 0: NOFIRE (3.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns105 > 0: NOFIRE (4.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns252 > 3
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns323 <= 14
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns645 <= 0
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns135 <= 10
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns510 <= 0: FIRE (51.0)
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns510 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns618 <= 0: FIRE (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns618 > 0: NOFIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns135 > 10: NOFIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns645 > 0: FIRE (54.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns323 > 14
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns549 <= 0: FIRE (7.0/1.0)
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns549 > 0: NOFIRE (3.0)
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns689 > 0
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns425 <= 0
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns126 <= 1
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns625 <= 1
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns520 <= 5
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns27 <= 6: NOFIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns27 > 6: FIRE (18.0)
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns520 > 5
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns32 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns124 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns180 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns430 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns148 <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns438 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns148 <= 6: FIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns148 > 6: NOFIRE (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns438 > 1: FIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns148 > 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns726 <= 0: FIRE (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns726 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns525 <= 0: FIRE (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns525 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns511 <= 0: NOFIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns511 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns633 <= 0: FIRE (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns633 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns2 <= 6: NOFIRE (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns2 > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns503 <= 1: NOFIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns503 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns353 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns260 <= 6: NOFIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns260 > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns375 <= 1: FIRE (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns375 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns427 <= 2: NOFIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns427 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns638 <= 1: FIRE (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns638 > 1: NOFIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns353 > 0: NOFIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns430 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns443 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns664 <= 7: FIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns664 > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns304 <= 10: NOFIRE (28.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns304 > 10: FIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns443 > 0: FIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns180 > 12: NOFIRE (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns124 > 13: NOFIRE (14.0)
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns32 > 1: NOFIRE (11.0)
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns625 > 1: FIRE (13.0/1.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns126 > 1: FIRE (17.0/1.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns425 > 0: FIRE (16.0/1.0)
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns400 > 14: FIRE (31.0)
+|   |   |   |   Spatial Pyramid of Local Binary Patterns148 > 14
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns715 <= 1: NOFIRE (22.0)
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns715 > 1: FIRE (8.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns29 > 0: FIRE (26.0)
+Spatial Pyramid of Local Binary Patterns77 > 1: NOFIRE (33.0)
+
+Number of Leaves  : 	47
+
+Size of the tree : 	93
+
+
+Time taken to build model: 0.34 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         601               97.5649 %
+Incorrectly Classified Instances        15                2.4351 %
+Kappa statistic                          0.9493
+Mean absolute error                      0.0418
+Root mean squared error                  0.1445
+Relative absolute error                  8.6925 %
+Root relative squared error             29.485  %
+Total Number of Instances              616     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.981    0.032    0.978      0.981    0.980      0.949    0.995     0.996     FIRE
+                 0.968    0.019    0.972      0.968    0.970      0.949    0.995     0.991     NOFIRE
+Weighted Avg.    0.976    0.027    0.976      0.976    0.976      0.949    0.995     0.994     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 362   7 |   a = FIRE
+   8 239 |   b = NOFIRE
+
+Time taken to test model on test data: 0 seconds
+
+=== Error on test data ===
+
+Correctly Classified Instances          80               76.9231 %
+Incorrectly Classified Instances        24               23.0769 %
+Kappa statistic                          0.371 
+Mean absolute error                      0.2588
+Root mean squared error                  0.4762
+Relative absolute error                 45.5375 %
+Root relative squared error             83.145  %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.750    0.227    0.375      0.750    0.500      0.409    0.679     0.270     FIRE
+                 0.773    0.250    0.944      0.773    0.850      0.409    0.679     0.910     NOFIRE
+Weighted Avg.    0.769    0.247    0.857      0.769    0.796      0.409    0.679     0.812     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 12  4 |  a = FIRE
+ 20 68 |  b = NOFIRE
+

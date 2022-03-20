@@ -5,6 +5,7 @@ __pycache__/
 
 **/~*
 **/*~
+**/*~*
 
 # C extensions
 *.so
@@ -130,3 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+agni/imgs/.DS_Store
+agni/.DS_Store
+**/.DS_Store
